@@ -1,0 +1,48 @@
+:root{
+    --minimal-pro-bg: #f9f9f9;
+    --minimal-pro-accent: #ffffff;
+    --minimal-pro-text: #1a1a1a;
+    --minimal-pro-highlight: #4a90e2;
+
+    --modern-tech-bg: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+    --modern-tech-text: #ffffff;
+    --modern-tech-accent: #00c6ff;
+    --modern-tech-highlight: #0f2027;
+
+    --creative-eneretic-bg: linear-gradient(to right, #00246b, #751919);
+    --creative-energetic-text: #fff;
+    --creative-energetic-accent: #bab6f9;
+    --creative-energetic-highlight: #cadcfc;
+
+    --dark-mode-bg: #121212;
+    --dark-mode-text: #e0e0e0;
+    --dark-mode-accent: #bb86fc;
+    --dark-mode-highlight: #1e1e1e;
+
+    --soft-friendly-bg: linear-gradient(to right, #f5f7fa, #c3cfe2 80%);
+    --soft-friendly-text: #333;
+    --soft-friendly-accent: #ff6f91;
+    --soft-friendly-highlight: #c3cfe2;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--soft-friendly-bg);
+    color: var(--soft-friendly-text);
+}
+.container{
+    width: 50%;
+}
+.accent span{
+    color: var(--soft-friendly-accent);
+    font-weight: 800;
+}
+.highlight{
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background: var(--soft-friendly-highlight);
+}
